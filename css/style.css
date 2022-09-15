@@ -137,6 +137,12 @@ img {
     .container{
         width: 768px;
     }
+
+    @media all and (min-width: 480px) and (max-width: 768px) { 
+        .container{
+         width: 100%;
+        }
+       }
 }
  @media screen and (max-width: 480px ) {
     .container{
